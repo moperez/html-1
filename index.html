@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adopción de Mascotas</title>
+  <link rel="stylesheet" href="estilo.css"> <!-- Si tienes un archivo CSS personalizado -->
+</head>
+<body>
+  <header>
+    <h1>¡Adopta una Mascota!</h1>
+    <p>Encuentra a tu compañero perfecto</p>
+  </header>
+  
+  <section id="about">
+    <h2>Sobre Nosotros</h2>
+    <p>Somos una organización dedicada a la adopción de mascotas. Nuestro objetivo es encontrar hogares amorosos para animales necesitados.</p>
+  </section>
+  
+  <section id="available-pets">
+    <h2>Mascotas Disponibles</h2>
+    <div class="pet-card">
+      <img src="img-weimi-01.jpg" alt="Perrito">
+      <h3>WEIMARANER</h3>
+      <p class="pet-detail">Edad: 45 días;</p>
+      <p class="pet-detail">Raza: Weimaraner</p>
+      <button class="right-align-1">Contactar</button>
+    </div>
+    <div class="pet-card">
+      <img src="img-dogoburdeo-02.jpg" alt="Perrito">
+      <h3>DOGO DE BURDEOS</h3>
+      <p class="pet-detail">Edad: 40 años;</p>
+      <p class="pet-detail">Raza: Dogo de Burdeos</p>
+      <button class="right-align-2">Contactar</button>
+    </div>
+    <!-- Repite esta estructura para cada mascota disponible -->
+  </section>
+  
+  <section id="adoption-process">
+    <h2>Proceso de Adopción</h2>
+    <ol>
+      <li>Explora las mascotas disponibles.</li>
+      <li>Contacta con nosotros para obtener más información o concertar una cita.</li>
+      <li>Conoce a la mascota en persona.</li>
+      <li>Completa el proceso de adopción, incluyendo la firma de un contrato de adopción y el pago de la tarifa correspondiente.</li>
+      <li>Lleva a tu nuevo compañero a casa y bríndale todo el amor y cuidado que se merece.</li>
+    </ol>
+  </section>
+  
+  <section id="contact">
+    <h2>Contacto</h2>
+    <p>Si tienes alguna pregunta o estás interesado en adoptar una mascota, no dudes en ponerte en contacto con nosotros.</p>
+    <form>
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Correo Electrónico:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Mensaje:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      
+      <button type="submit">Enviar Mensaje</button>
+    </form>
+  </section>
+  <script src="script.js"></script>
+  <footer>
+    <p>Realizado por .............. </p>
