@@ -1,0 +1,118 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #FF4633;
+  color: #000000;
+}
+
+header {
+  background-color: #145A32; /* Verde esmeralda */
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 3.5em;
+}
+
+header p {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+section {
+  padding: 20px;
+  margin: 10px auto;
+  max-width: 800px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #000000; /* Verde esmeralda */
+  font-size: 2em;
+}
+
+.pet-card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.pet-card img {
+  max-width: 100px;
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.pet-card h3 {
+  margin: 0;
+  color: #000000; /* Verde esmeralda */
+}
+
+button {
+  background-color: #212F3D;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #3fa556; /* Verde esmeralda oscuro */
+}
+
+.right-align-1 {
+  position: relative;
+  left: 4.7cm;
+}
+
+.right-align-2 {
+  position: relative;
+  left: 2cm;
+}
+
+.pet-detail{
+    margin: 5px;
+}
+
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-top: 10px;
+}
+
+form input, form textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form button {
+  margin-top: 10px;
+}
+
+
+
+footer {
+  background-color: #145A32; /* Verde esmeralda */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
